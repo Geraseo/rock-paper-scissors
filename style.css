@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: azure;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 25, 25);
+    
+}
+#selection > div > i {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    word-wrap: break-word;
+    font-size: 6em;
+    padding: 0 30px;
+}
+.extradiv {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.replay {
+   background-color: rgb(157, 32, 32);
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+cursor: pointer;
+text-align: center;
+}
+
+#selection > div {
+    /* border: 2px solid yellow; */
+    width: 30%;
+
+}
+#selection {
+height: 50%;
+    /* border: 3px solid orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#selection > h2 {
+    width: 100%;
+    text-align: center;
+}
+/* help classes */
+.centeris {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderisred {
+    border: 3px solid red;
+}
+.borderisgreen {
+    border: 3px solid green;
+}
+.borderisyellow {
+    border: 3px solid yellow;
+}
+.borderispink {
+    border: 3px solid lightcoral;
+}
+.borderisorange {
+    border: 3px solid orange;
+}
+.borderisblue {
+    border: 3px solid blue;
+} 
